@@ -15,6 +15,10 @@ const HealthSchemaDef = new mongoose.Schema(
       type: String,
       default: null,
     },
+    medication: {
+      type: String,
+      default: null,
+    },
   },
   {
     timestamps: true,
