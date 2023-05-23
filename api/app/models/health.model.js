@@ -1,4 +1,4 @@
-import mongoose from "mongoose";
+const mongoose = require("mongoose");
 
 const HealthSchemaDef = new mongoose.Schema(
   {
@@ -19,6 +19,10 @@ const HealthSchemaDef = new mongoose.Schema(
       type: String,
       default: null,
     },
+    disease: {
+      type: String,
+      default: null,
+    },
   },
   {
     timestamps: true,
@@ -26,3 +30,7 @@ const HealthSchemaDef = new mongoose.Schema(
     autoIndex: true,
   }
 );
+
+const HealthModel = mongoose.model("Health", HealthSchemaDef);
+
+module.exports = HealthModel;
