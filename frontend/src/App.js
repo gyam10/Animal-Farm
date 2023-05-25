@@ -1,5 +1,13 @@
+import InfoBar from "./components/InfoBar";
+import NavBar from "./components/NavBar";
+
 function App() {
-  return <div className="App">Hello</div>;
+  return (
+    <>
+      <InfoBar />
+      <NavBar />
+    </>
+  );
 }
 
 export default App;
