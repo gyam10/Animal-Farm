@@ -1,20 +1,18 @@
 import { Route, Routes } from "react-router-dom";
-import InfoBar from "./components/InfoBar";
-import NavBar from "./components/NavBar";
-import Main from "./pages/Main";
-import Features from "./pages/Features";
-import Footer from "./components/Footer";
+import { Main, Features, About, Contact } from "./pages/common";
+import HomeLayout from "./pages/layout/HomeLayout";
 
 function App() {
   return (
     <>
-      <InfoBar />
-      <NavBar />
       <Routes>
-        <Route path="/" element={<Main />} />
-        <Route path="/features" element={<Features />} />
+        <Route path="/" element={<HomeLayout />}>
+          <Route index element={<Main />} />
+          <Route path="/features" element={<Features />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+        </Route>
       </Routes>
-      <Footer />
     </>
   );
 }
