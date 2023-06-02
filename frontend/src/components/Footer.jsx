@@ -7,7 +7,7 @@ import { FaFacebookF, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
 const Footer = () => {
   return (
     <div className="bg-gray-400 ">
-      <div className="mx-auto max-w-[1080px] p-2 flex">
+      <div className="mx-auto max-w-[1080px] p-2 flex overflow-hidden ">
         {/* left most side */}
         <div className="w-[25%]">
           <div className="flex items-center ">
@@ -19,7 +19,7 @@ const Footer = () => {
               Animal farm
             </span>
           </div>
-          <p className="text-md text-white p-2">
+          <p className="text-md text-white p-2 text-justify">
             Info about the websites Info about the websites Info about the
             websites Info about the websites
           </p>
@@ -64,7 +64,7 @@ const Footer = () => {
         </div>
 
         {/* Contact us part */}
-        <div className=" w-[25%] p-2 mx-4">
+        <div className=" w-[25%] p-2 mx-4 ">
           <p className="text-lg font-semibold uppercase tracking-wider">
             Contact Us
           </p>
