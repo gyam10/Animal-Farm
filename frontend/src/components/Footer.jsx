@@ -69,9 +69,9 @@ const Footer = () => {
             Contact Us
           </p>
           <hr />
-          <div className="flex items-center p-2">
-            <p className="font-bold text-md mx-2">Email:</p>
-            <span className="text-md ">animalCare.com.np</span>
+          <div className="flex items-center p-1">
+            <p className="font-bold text-md ">Email:</p>
+            <span className="text-md ml-2">animalCare.com.np</span>
           </div>
           <div className="p-3 flex items-center ">
             <Link to="/">
