@@ -14,47 +14,50 @@ const CarouselBanner = () => {
       dynamicHeight={true}
       showThumbs={false}
       infiniteLoop={true}
-      className="relative "
+      className="relative"
     >
-      <div className=" bg-sky-100 ">
-        <div className="flex justify-between mx-4 ">
-          <div className="flex justify-center items-center ">
+      <div className=" bg-[#E8E9EB]  ">
+        <div className="flex justify-between mx-4 w-full">
+          <div className="flex justify-center items-center w-[50%]">
             Help you to keep progress of Animal and Fram
           </div>
-          <div>
+          <div className="w-[50%] ">
             <img
               src={caretaker}
-              className="h-[700px]  object-cover object-right-bottom"
+              alt="caretaker"
+              className="h-[53vh] w-[100%] object-scale-down    object-right-bottom"
             />
           </div>
         </div>
 
         {/* <p className="legend">Legend 1</p> */}
       </div>
-      <div className=" bg-sky-100 ">
-        <div className="flex justify-between mx-4 ">
-          <div className="flex justify-center items-center ">
+      <div className=" bg-[#E8E9EB] ">
+        <div className="flex justify-between mx-4 w-full ">
+          <div className="flex justify-center items-center w-[50%]">
             Help you to keep progress of Animal and Fram
           </div>
-          <div>
+          <div className="w-[50%]">
             <img
               src={animalcare2}
-              className="h-[700px] w-[500px] object-cover object-right-bottom"
+              alt="animalcare2"
+              className="h-[53vh]  object-cover object-right-bottom"
             />
           </div>
         </div>
 
         {/* <p className="legend">Legend 1</p> */}
       </div>
-      <div className=" bg-sky-100 ">
-        <div className="flex justify-between mx-4 ">
-          <div className="flex justify-center items-center ">
+      <div className=" bg-[#E8E9EB] ">
+        <div className="flex justify-between mx-4 w-full">
+          <div className="flex justify-center items-center w-[50%]">
             Help you to keep progress of Animal and Fram
           </div>
-          <div>
+          <div className="w-[50%]">
             <img
               src={animalcare3}
-              className="h-[700px] w-[500px]  object-cover object-right-bottom"
+              alt="animalcare3"
+              className="h-[53vh] w-[500px]  object-cover object-right-bottom"
             />
           </div>
         </div>
