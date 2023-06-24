@@ -39,6 +39,11 @@ function NavBar() {
                   Contact
                 </li>
               </Link>
+              <Link to="/signup">
+                <li className="ml-10 text-sm uppercase hover:border-b">
+                  SignUp
+                </li>
+              </Link>
             </ul>
           </div>
           <div
@@ -60,7 +65,7 @@ function NavBar() {
           <div
             className={
               toggle
-                ? "fixed left-0 top-0 w-[75%] sm:[60%] md:[45%] h-screen  bg-[#ecf0f3] p-10 ease-in duration-500"
+                ? "fixed left-0 top-0 w-[75%] sm:[60%] md:[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500"
                 : "fixed left-[-100%] top-0 p-10 ease-in duration-400"
             }
           >

@@ -1,5 +1,4 @@
 import React from "react";
-
 import Carosusel from "../../components/Carousel";
 
 const Main = () => {

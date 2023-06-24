@@ -1,4 +1,11 @@
-import { Main, Features, About, Contact } from "./pages/common/index";
+import {
+  Main,
+  Features,
+  About,
+  Contact,
+  SignUp,
+  Login,
+} from "./pages/common/index";
 import { Route, Routes } from "react-router-dom";
 import HomeLayout from "./pages/layout/HomeLayout";
 
@@ -11,6 +18,8 @@ const App = () => {
           <Route path="/features" element={<Features />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/signup" element={<SignUp />} />
+          <Route path="/login" element={<Login />} />
         </Route>
       </Routes>
     </>
